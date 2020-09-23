@@ -1,0 +1,17 @@
+Compiling single file...
+--------
+- Filename: C:\Users\QuyTTSE63199\Documents\ham case.cpp
+- Compiler Name: TDM-GCC 4.8.1 64-bit Release
+
+Processing C++ source file...
+--------
+- C++ Compiler: G:\FPT Source\Chuyên nghành 1\Dev-Cpp\MinGW64\bin\g++.exe
+- Command: g++.exe "C:\Users\QuyTTSE63199\Documents\ham case.cpp" -o "C:\Users\QuyTTSE63199\Documents\ham case.exe"  -I"G:\FPT Source\Chuyên nghành 1\Dev-Cpp\MinGW64\include" -I"G:\FPT Source\Chuyên nghành 1\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include" -I"G:\FPT Source\Chuyên nghành 1\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.8.1\include" -I"G:\FPT Source\Chuyên nghành 1\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.8.1\include\c++" -L"G:\FPT Source\Chuyên nghành 1\Dev-Cpp\MinGW64\lib" -L"G:\FPT Source\Chuyên nghành 1\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib" -static-libgcc
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\QuyTTSE63199\Documents\ham case.exe
+- Output Size: 361.8271484375 KiB
+- Compilation Time: 0.91s

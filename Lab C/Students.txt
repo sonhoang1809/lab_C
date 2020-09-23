@@ -1,0 +1,15 @@
+------Student     1
+se130448            
+dang hoang son      
+18/9/99             
+8.40                
+------Student     2
+se130449            
+van thanh phuong dat
+14/9/99             
+8.80                
+------Student     3
+se130264            
+vu ngoc mai         
+6/2/99              
+9.50                

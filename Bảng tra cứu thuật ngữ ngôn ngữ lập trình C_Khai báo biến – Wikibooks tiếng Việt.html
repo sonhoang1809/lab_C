@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<!-- saved from url=(0158)https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn -->
+<html class="client-js ve-not-available" lang="vi" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Bảng tra cứu thuật ngữ ngôn ngữ lập trình C/Khai báo biến – Wikibooks tiếng Việt</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Bảng_tra_cứu_thuật_ngữ_ngôn_ngữ_lập_trình_C/Khai_báo_biến","wgTitle":"Bảng tra cứu thuật ngữ ngôn ngữ lập trình C/Khai báo biến","wgCurRevisionId":196197,"wgRevisionId":196197,"wgArticleId":3164,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Bảng tra cứu thuật ngữ ngôn ngữ lập trình C"],"wgBreakFrames":false,"wgPageContentLanguage":"vi","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"vi normal","wgMonthNames":["","tháng 1","tháng 2","tháng 3","tháng 4","tháng 5","tháng 6","tháng 7","tháng 8","tháng 9","tháng 10","tháng 11","tháng 12"],"wgMonthNamesShort":["","tháng 1","tháng 2","tháng 3","tháng 4","tháng 5","tháng 6","tháng 7","tháng 8","tháng 9","tháng 10","tháng 11","tháng 12"],"wgRelevantPageName":"Bảng_tra_cứu_thuật_ngữ_ngôn_ngữ_lập_trình_C/Khai_báo_biến","wgRelevantArticleId":3164,"wgRequestId":"XHyJogpAICgAAEU2JiUAAAAN","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"vi","pageLanguageDir":"ltr","pageVariantFallbacks":"vi","usePageImages":false,"usePageDescriptions":true},"wgMFIsPageContentModelEditable":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgWMESchemaEditAttemptStepOversample":false,"wgPoweredByHHVM":true,"wgULSCurrentAutonym":"Tiếng Việt","wgNoticeProject":"wikibooks","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true,"wgSiteNoticeId":"2.1"});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","ext.dismissableSiteNotice.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0dgfq13",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"vi"});
+});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.AVIM","ext.gadget.AVIM_portlet","ext.gadget.random_book","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js","ext.dismissableSiteNotice"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/load.php">
+<script async="" src="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/load(1).php"></script>
+<style>
+.mw-editfont-monospace{font-family:monospace,monospace}.mw-editfont-sans-serif{font-family:sans-serif}.mw-editfont-serif{font-family:serif} .mw-editfont-monospace,.mw-editfont-sans-serif,.mw-editfont-serif{font-size:13px; }.mw-editfont-monospace.oo-ui-textInputWidget,.mw-editfont-sans-serif.oo-ui-textInputWidget,.mw-editfont-serif.oo-ui-textInputWidget{font-size:inherit}.mw-editfont-monospace > .oo-ui-inputWidget-input,.mw-editfont-sans-serif > .oo-ui-inputWidget-input,.mw-editfont-serif > .oo-ui-inputWidget-input{font-size:13px}
+.mw-ui-button{background-color:#f8f9fa;color:#222222;display:inline-block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;min-width:4em;max-width:28.75em;margin:0;padding:0.57142857em 0.9375em;border:1px solid #a2a9b1;border-radius:2px;font-family:inherit;font-size:1em;font-weight:bold;line-height:1;text-align:center;-webkit-appearance:none;*display:inline; zoom:1;vertical-align:middle;cursor:pointer}.mw-ui-button:visited{color:#222222}.mw-ui-button:hover{background-color:#ffffff;color:#444444;border-color:#a2a9b1}.mw-ui-button:focus{background-color:#ffffff;color:#222222;border-color:#3366cc;box-shadow:inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff;outline-width:0}.mw-ui-button:focus::-moz-focus-inner{border-color:transparent;padding:0}.mw-ui-button:active,.mw-ui-button.is-on{background-color:#c8ccd1;color:#000000;border-color:#72777d;box-shadow:none}.mw-ui-button:disabled{background-color:#c8ccd1;color:#ffffff;border-color:#c8ccd1;cursor:default}.mw-ui-button:disabled:hover,.mw-ui-button:disabled:active{background-color:#c8ccd1;color:#ffffff;box-shadow:none;border-color:#c8ccd1}.mw-ui-button:not(:disabled){-webkit-transition:background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms;-moz-transition:background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms;transition:background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms}.mw-ui-button.mw-ui-quiet,.mw-ui-button.mw-ui-quiet.mw-ui-progressive,.mw-ui-button.mw-ui-quiet.mw-ui-destructive{background-color:transparent;color:#222222;border-color:transparent}.mw-ui-button.mw-ui-quiet:hover,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:hover,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:hover{background-color:transparent;color:#444444;border-color:transparent;box-shadow:none}.mw-ui-button.mw-ui-quiet:active,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:active,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:active{background-color:transparent;color:#000000;border-color:transparent}.mw-ui-button.mw-ui-quiet:focus,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:focus,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus{background-color:transparent;color:#222222;border-color:transparent;box-shadow:none}.mw-ui-button.mw-ui-quiet:disabled,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:disabled,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled,.mw-ui-button.mw-ui-quiet:disabled:hover,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:disabled:hover,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled:hover,.mw-ui-button.mw-ui-quiet:disabled:active,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:disabled:active,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled:active{background-color:transparent;color:#72777d;border-color:transparent}.mw-ui-button.mw-ui-progressive{background-color:#3366cc;color:#fff;border:1px solid #3366cc}.mw-ui-button.mw-ui-progressive:hover{background-color:#447ff5;border-color:#447ff5}.mw-ui-button.mw-ui-progressive:focus{box-shadow:inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff}.mw-ui-button.mw-ui-progressive:active,.mw-ui-button.mw-ui-progressive.is-on{background-color:#2a4b8d;border-color:#2a4b8d;box-shadow:none}.mw-ui-button.mw-ui-progressive:disabled{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1}.mw-ui-button.mw-ui-progressive:disabled:hover,.mw-ui-button.mw-ui-progressive:disabled:active{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1;box-shadow:none}.mw-ui-button.mw-ui-progressive.mw-ui-quiet{color:#3366cc}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover{background-color:transparent;color:#447ff5}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:active{color:#2a4b8d}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus{background-color:transparent;color:#3366cc}.mw-ui-button.mw-ui-destructive{background-color:#dd3333;color:#fff;border:1px solid #dd3333}.mw-ui-button.mw-ui-destructive:hover{background-color:#ff4242;border-color:#ff4242}.mw-ui-button.mw-ui-destructive:focus{box-shadow:inset 0 0 0 1px #dd3333,inset 0 0 0 2px #ffffff}.mw-ui-button.mw-ui-destructive:active,.mw-ui-button.mw-ui-destructive.is-on{background-color:#b32424;border-color:#b32424;box-shadow:none}.mw-ui-button.mw-ui-destructive:disabled{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1}.mw-ui-button.mw-ui-destructive:disabled:hover,.mw-ui-button.mw-ui-destructive:disabled:active{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1;box-shadow:none}.mw-ui-button.mw-ui-destructive.mw-ui-quiet{color:#dd3333}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:hover{background-color:transparent;color:#ff4242}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:active{color:#b32424}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:focus{background-color:transparent;color:#dd3333}.mw-ui-button.mw-ui-big{font-size:1.3em}.mw-ui-button.mw-ui-block{display:block;width:100%;margin-left:auto;margin-right:auto}input.mw-ui-button::-moz-focus-inner,button.mw-ui-button::-moz-focus-inner{margin-top:-1px;margin-bottom:-1px}a.mw-ui-button{text-decoration:none}a.mw-ui-button:hover,a.mw-ui-button:focus{text-decoration:none}.mw-ui-button-group > *{min-width:48px;border-radius:0;float:left}.mw-ui-button-group > *:first-child{border-top-left-radius:2px;border-bottom-left-radius:2px}.mw-ui-button-group > *:not(:first-child){border-left:0}.mw-ui-button-group > *:last-child{border-top-right-radius:2px;border-bottom-right-radius:2px}.mw-ui-button-group .is-on .button{cursor:default}
+.ve-init-mw-progressBarWidget{height:1em;overflow:hidden;margin:0 25%}.ve-init-mw-progressBarWidget-bar{height:1em;width:0} .ve-init-mw-progressBarWidget{height:0.75em;border:1px solid #36c;background:#fff;border-radius:2px;box-shadow:0 0.1em 0 0 rgba(0,0,0,0.15)}.ve-init-mw-progressBarWidget-bar{height:0.75em;background:#36c}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:0;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:1px solid #a2a9b1;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:1px solid #a2a9b1;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#2a4b8d;color:#fff}.suggestions-special .special-label{color:#72777d;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c8ccd1}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	.toc.tochidden,.toctoggle{display:none}}
+@-webkit-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-webkit-transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-moz-transform:translateY(-20px)}100%{opacity:1;-moz-transform:translateY(0)}}@-o-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-o-transform:translateY(-20px)}100%{opacity:1;-o-transform:translateY(0)}}@keyframes centralAuthPPersonalAnimation{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}.centralAuthPPersonalAnimation{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:centralAuthPPersonalAnimation;-moz-animation-name:centralAuthPPersonalAnimation;-o-animation-name:centralAuthPPersonalAnimation;animation-name:centralAuthPPersonalAnimation}
+@media print{#centralNotice{display:none}}.cn-closeButton{display:inline-block;zoom:1;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAElBMVEUAAAAQEBDPz88AAABAQEDv7+9oe1vvAAAABnRSTlMA3rLe3rJS22KzAAAARElEQVQI12PAAUIUQCSTK5BwFgIxFU1AhKECUFAYKAAioXwwBeZChMGCEGGQIFQYJohgIhQgtCEMQ7ECYTHCOciOxA4AADgJTXIb9s8AAAAASUVORK5CYII=) no-repeat;background:url(/w/extensions/CentralNotice/resources/subscribing/close.png?8e3d8) no-repeat!ie;width:20px;height:20px;text-indent:20px;white-space:nowrap;overflow:hidden}
+.uls-menu{border-radius:2px; font-size:medium}.uls-search,.uls-language-settings-close-block{border-top-right-radius:2px;border-top-left-radius:2px}.uls-language-list{border-bottom-right-radius:2px;border-bottom-left-radius:2px}.uls-menu.callout:before,.uls-menu.callout:after{border-top:10px solid transparent;border-bottom:10px solid transparent;display:inline-block; top:17px;position:absolute;content:''}.uls-menu.callout.selector-right:before{ border-left:10px solid #c8ccd1; right:-11px}.uls-menu.callout.selector-right:after{ border-left:10px solid #fff; right:-10px}.uls-menu.callout.selector-left:before{ border-right:10px solid #c8ccd1; left:-11px}.uls-menu.callout.selector-left:after{ border-right:10px solid #fff; left:-10px}.uls-ui-languages button{margin:5px 15px 5px 0;white-space:nowrap;overflow:hidden}.uls-search-wrapper-wrapper{position:relative;padding-left:40px;margin-top:5px;margin-bottom:5px}.uls-icon-back{background:transparent url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.png?90e9b) no-repeat scroll center center;background-image:-webkit-linear-gradient(transparent,transparent),url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.svg?e226b);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22%3E %3Cpath fill=%22%2354595d%22 d=%22M7 13.1l8.9 8.9c.8-.8.8-2 0-2.8l-6.1-6.1 6-6.1c.8-.8.8-2 0-2.8L7 13.1z%22/%3E %3C/svg%3E");background-size:28px;background-position:center center;height:32px;width:40px;display:block;position:absolute;left:0;border-right:1px solid #c8ccd1;opacity:0.8}.uls-icon-back:hover{opacity:1;cursor:pointer}.uls-menu .uls-no-results-view .uls-no-found-more{background-color:#fff}.uls-menu .uls-no-results-view h3{padding:0 28px;margin:0;color:#54595d;font-size:1em;font-weight:normal}  .skin-vector .uls-menu{border-color:#c8ccd1;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.25);box-shadow:0 2px 2px 0 rgba(0,0,0,0.25);font-size:0.875em}.skin-vector .uls-search{border-bottom-color:#c8ccd1}.skin-vector .uls-filtersuggestion{color:#72777d}.skin-vector .uls-lcd-region-title{color:#54595d}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ve-init-mw-tempWikitextEditorWidget{border:0;padding:0;color:inherit;line-height:1.5em;width:100%; }.ve-init-mw-tempWikitextEditorWidget:focus{outline:0;padding:0}.ve-init-mw-tempWikitextEditorWidget::selection{background:rgba(109,169,247,0.5); }
+#p-avim ul{margin-left:0em;padding-left:0em;list-style:none}#p-avim .body small,#p-avim .body a{font-size:0.8em !important}  body.skin-vector label.radio{font-size:0.9em !important} body.skin-vector #mw-panel > .portal > .body hr{border-style:none;background-position:top right;background-repeat:no-repeat;background-image:-webkit-gradient(linear,left top,right top,color-stop(80%,#d8d8d8),color-stop(100%,#f2f2f2));background-image:-webkit-linear-gradient(left,#d8d8d8 80%,#f2f2f2);background-image:-moz-linear-gradient(left,#d8d8d8 80%,#f2f2f2);background-image:-ms-linear-gradient(left,#d8d8d8 80%,#f2f2f2);background-image:-o-linear-gradient(left,#d8d8d8 80%,#f2f2f2);background-image:linear-gradient(to right,#d8d8d8 80%,#f2f2f2);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#d8d8d8',endColorstr='#f2f2f2')"} body.skin-nostalgia #p-avim li{display:inline;list-style-type:none;margin-right:1em}body.skin-nostalgia #p-avim hr{display:inline}
+#p-lang .body ul .uls-trigger,#p-lang .pBody ul .uls-trigger{background-image:none;padding:0} .mw-interlanguage-selector,.mw-interlanguage-selector:active{cursor:pointer;padding:4px 6px 4px 25px;font-size:13px;font-weight:normal;background-image:url(/w/extensions/UniversalLanguageSelector/resources/images/compact-links-trigger.png?b0c8e);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2218%22 height=%2218%22 viewBox=%220 0 24 24%22%3E %3Cpath fill=%22%2372777d%22 d=%22M13 19l.8-3h5.3l.9 3h2.2L18 6h-3l-4.2 13H13zm3.5-11l2 6h-4l2-6zM5 4l.938 1.906H1V8h1.594C3.194 9.8 4 11.206 5 12.406c-1.1.7-4.313 1.781-4.313 1.781L2 16s3.487-1.387 4.688-2.188c1 .7 2.319 1.188 3.719 1.688l.594-2c-1-.3-1.988-.688-2.688-1.188 1.1-1.1 1.9-2.506 2.5-4.406h2.188l.5-2H7.938L7 4H5zm-.188 4h3.781c-.4 1.3-.906 2-1.906 3-1.1-1-1.475-1.7-1.875-3z%22/%3E %3C/svg%3E");background-size:18px;background-repeat:no-repeat;background-position:left 4px center;margin:4px 0;text-align:left}.mw-interlanguage-selector:active,.mw-interlanguage-selector.selector-open{background-color:#c8ccd1;color:#54595d}.interlanguage-uls-menu:before,.interlanguage-uls-menu:after{border-top:10px solid transparent;border-bottom:10px solid transparent;display:inline-block; top:17px;position:absolute;content:''}.interlanguage-uls-menu.selector-right:before{ border-left:10px solid #c8ccd1; right:-11px}.interlanguage-uls-menu.selector-right:after{ border-left:10px solid #fff; right:-10px}.interlanguage-uls-menu.selector-left:before{ border-right:10px solid #c8ccd1; left:-11px}.interlanguage-uls-menu.selector-left:after{ border-right:10px solid #fff; left:-10px}
+#uls-settings-block{background-color:#f8f9fa;border-top:1px solid #c8ccd1;padding-left:10px;line-height:1.2em;border-radius:0 0 2px 2px}#uls-settings-block > button{background:left top transparent no-repeat;background-size:20px auto;color:#54595d;display:inline-block;margin:8px 15px;border:0;padding:0 0 0 26px;font-size:medium;cursor:pointer}#uls-settings-block > button:hover{color:#222}#uls-settings-block > button.display-settings-block{background-image:url(/w/extensions/UniversalLanguageSelector/resources/images/display.png?d25f1);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Cpath fill=%22%23222%22 d=%22M.002 2.275V15.22h8.405c.535 1.624-.975 1.786-1.902 2.505 0 0 2.293-.024 3.439-.024 1.144 0 3.432.024 3.432.024-.905-.688-2.355-.868-1.902-2.505h8.527V2.275h-20zm6.81 1.84h.797l3.313 8.466H9.879L8.836 9.943H5.462l-1.043 2.638h-.982zm.368 1.104c-.084.369-.211.785-.368 1.227L5.83 9.023h2.699l-.982-2.577c-.128-.33-.234-.747-.368-1.227zm7.117.982c.753 0 1.295.157 1.656.491.365.334.552.858.552 1.595v4.294h-.675l-.184-.859h-.062c-.315.396-.605.655-.92.798-.311.138-.758.184-1.227.184-.626 0-1.115-.168-1.472-.491-.353-.323-.491-.754-.491-1.35 0-1.275 1.028-1.963 3.068-2.025h1.043v-.429c0-.495-.091-.87-.307-1.104-.211-.238-.574-.307-1.043-.307-.526 0-1.115.107-1.779.429l-.307-.675a4.748 4.748 0 0 1 1.043-.429 4.334 4.334 0 0 1 1.104-.123zm.307 3.313c-.761.027-1.318.157-1.656.368-.334.207-.491.54-.491.982 0 .346.1.617.307.798.211.181.544.245.92.245.595 0 1.012-.164 1.35-.491.342-.326.552-.762.552-1.35v-.552z%22/%3E %3C/svg%3E")}#uls-settings-block > button.input-settings-block{background-image:url(/w/extensions/UniversalLanguageSelector/resources/images/input.png?aea9e);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Cpath fill=%22%23222%22 d=%22M9 1.281c-.124.259-.185.599-.5.688-.55.081-1.133.018-1.688 0-.866-.032-1.733-.148-2.594 0-.588.157-.953.727-1.188 1.25-.178.416-.271.836-.344 1.281H-.002V16h20V4.5H3.654c.109-.52.203-1.057.563-1.469.222-.231.587-.17.875-.188 1.212.003 2.415.179 3.625.063.463-.058.812-.455.969-.875l.188-.438-.875-.313zM1.875 7.125h1.563c.094 0 .188.093.188.188v1.531a.201.201 0 0 1-.188.188H1.875c-.094 0-.156-.093-.156-.188V7.313c0-.094.062-.188.156-.188zm2.844 0h1.563c.094 0 .156.093.156.188v1.531c0 .094-.062.188-.156.188H4.719c-.094 0-.156-.093-.156-.188V7.313c0-.094.062-.188.156-.188zm2.844 0h1.563c.094 0 .156.093.156.188v1.531c0 .094-.062.188-.156.188H7.563a.201.201 0 0 1-.188-.188V7.313c0-.094.093-.188.188-.188zm2.813 0h1.563c.094 0 .188.093.188.188v1.531a.201.201 0 0 1-.188.188h-1.563c-.094 0-.156-.093-.156-.188V7.313c0-.094.062-.188.156-.188zm2.844 0h1.563c.094 0 .156.093.156.188v1.531c0 .094-.062.188-.156.188H13.22c-.094 0-.156-.093-.156-.188V7.313c0-.094.062-.188.156-.188zm2.844 0h1.531c.094 0 .188.093.188.188v1.531a.201.201 0 0 1-.188.188h-1.531a.201.201 0 0 1-.188-.188V7.313c0-.094.093-.188.188-.188zm-12.844 3h1.563c.094 0 .156.093.156.188v1.563c0 .094-.062.156-.156.156H3.22c-.094 0-.156-.062-.156-.156v-1.563c0-.094.062-.188.156-.188zm2.906 0h1.563c.094 0 .188.093.188.188v1.563c0 .094-.093.156-.188.156H6.126c-.094 0-.156-.062-.156-.156v-1.563c0-.094.062-.188.156-.188zm2.938 0h1.531c.094 0 .188.093.188.188v1.563c0 .094-.093.156-.188.156H9.064c-.094 0-.188-.062-.188-.156v-1.563c0-.094.093-.188.188-.188zm2.906 0h1.563c.094 0 .156.093.156.188v1.563c0 .094-.062.156-.156.156H11.97c-.094 0-.188-.062-.188-.156v-1.563c0-.094.093-.188.188-.188zm2.906 0h1.563c.094 0 .156.093.156.188v1.563c0 .094-.062.156-.156.156h-1.563c-.094 0-.156-.062-.156-.156v-1.563c0-.094.062-.188.156-.188zM4.001 13.688h12c.088 0 .156.068.156.156v.844a.154.154 0 0 1-.156.156h-12a.154.154 0 0 1-.156-.156v-.844c0-.088.068-.156.156-.156z%22/%3E %3C/svg%3E")}</style><style>
+.ve-activated .ve-init-mw-desktopArticleTarget-editableContent #toc,.ve-activated #siteNotice,.ve-activated .mw-indicators,.ve-activated #t-print,.ve-activated #t-permalink,.ve-activated #p-coll-print_export,.ve-activated #t-cite,.ve-deactivating .ve-ui-surface,.ve-active .ve-init-mw-desktopArticleTarget-editableContent,.ve-active .ve-init-mw-tempWikitextEditorWidget{display:none} .ve-activating .ve-ui-surface{height:0;padding:0 !important; overflow:hidden} .ve-loading #content > :not(.ve-init-mw-desktopArticleTarget-loading-overlay), .ve-activated .ve-init-mw-desktopArticleTarget-uneditableContent{pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;opacity:0.5}.ve-activated #firstHeading{ -webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}.ve-activated #catlinks{cursor:pointer}.ve-activated #catlinks a{opacity:1}.ve-activated #content{position:relative} .ve-init-mw-desktopArticleTarget-loading-overlay{position:absolute;top:1.25em;left:0;right:0;z-index:1;margin-top:-0.5em}.ve-init-mw-desktopArticleTarget-toolbarPlaceholder{transition:height 250ms ease;height:0; } .oo-ui-element-hidden{display:none !important; } .mw-editsection{white-space:nowrap; unicode-bidi:-moz-isolate;unicode-bidi:-webkit-isolate;unicode-bidi:isolate}.mw-editsection-divider{color:#54595d} .ve-init-mw-desktopArticleTarget-toolbarPlaceholder{border-bottom:1px solid #c8ccd1;box-shadow:0 1px 1px 0 rgba(0,0,0,0.1)}.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-open{height:42px} .ve-init-mw-desktopArticleTarget-toolbar,.ve-init-mw-desktopArticleTarget-toolbarPlaceholder{font-size:0.875em; margin:-1.14em -1.14em 1.14em -1.14em; }@media screen and (min-width:982px){.ve-init-mw-desktopArticleTarget-toolbar,.ve-init-mw-desktopArticleTarget-toolbarPlaceholder{ margin:-1.43em -1.71em 1.43em -1.71em}}</style><style>
+.client-js ol.mw-collapsible:before,.client-js ul.mw-collapsible:before,.client-js .mw-collapsible-toggle-li{ display:list-item;list-style:none;margin-bottom:0.1em}.client-js ol.mw-made-collapsible:before,.client-js ul.mw-made-collapsible:before{display:none}.client-js ol.mw-collapsible:not(.mw-made-collapsible):before,.client-js ul.mw-collapsible:not(.mw-made-collapsible):before,.client-js table.mw-collapsible:not(.mw-made-collapsible) :first-child tr:first-child th:last-child:before,.client-js table.mw-collapsible:not(.mw-made-collapsible) > caption:first-child:after,.client-js div.mw-collapsible:not(.mw-made-collapsible):before{content:'[ẩn]'}.client-js td.mw-collapsed:not(.mw-made-collapsible):before,.client-js table.mw-collapsed:not(.mw-made-collapsible) :first-child tr:first-child th:last-child:before,.client-js table.mw-collapsed:not(.mw-made-collapsible) > caption:first-child:after,.client-js div.mw-collapsed:not(.mw-made-collapsible):before{content:'[hiện]'}.client-js .mw-collapsible[id^='mw-customcollapsible'] th:before,.client-js .mw-collapsible[id^='mw-customcollapsible']:before{content:none !important}.client-js table.mw-collapsible:not(.mw-made-collapsible) > caption:first-child:after{float:none;display:block}.client-js .mw-collapsed:not(.mw-made-collapsible) > p,.client-js .mw-collapsed:not(.mw-made-collapsible) > table,.client-js .mw-collapsed:not(.mw-made-collapsible) > thead + tbody,.client-js .mw-collapsed:not(.mw-made-collapsible) tr:not(:first-child),.client-js .mw-collapsed:not(.mw-made-collapsible) .mw-collapsible-content{display:none} .mw-collapsible:not(.mw-made-collapsible) th:before,.mw-collapsible:not(.mw-made-collapsible):before,.mw-collapsible-toggle{float:right}  .mw-content-ltr .mw-collapsible:not(.mw-made-collapsible) th:before,.mw-content-rtl .mw-content-ltr .mw-collapsible:not(.mw-made-collapsible) th:before,.mw-content-ltr .mw-collapsible:not(.mw-made-collapsible):before,.mw-content-rtl .mw-content-ltr .mw-collapsible:not(.mw-made-collapsible):before,.mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible:not(.mw-made-collapsible) th:before,.mw-content-ltr .mw-content-rtl .mw-collapsible:not(.mw-made-collapsible) th:before,.mw-content-rtl .mw-collapsible:not(.mw-made-collapsible):before,.mw-content-ltr .mw-content-rtl .mw-collapsible:not(.mw-made-collapsible):before,.mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle{float:none}ol.mw-collapsible:not(.mw-made-collapsible):before,ul.mw-collapsible:not(.mw-made-collapsible):before{float:none !important}</style><style>
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.mw-collapsible-toggle-default:before{content:'['}.mw-collapsible-toggle-default:after{content:']'}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/load(2).php">
+<meta name="generator" content="MediaWiki 1.33.0-wmf.19">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-crossorigin">
+<meta name="referrer" content="origin-when-cross-origin">
+<link rel="alternate" type="application/x-wiki" title="Sửa đổi" href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit">
+<link rel="edit" title="Sửa đổi" href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit">
+<link rel="shortcut icon" href="https://vi.wikibooks.org/static/favicon/wikibooks.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://vi.wikibooks.org/w/opensearch_desc.php" title="Wikibooks (vi)">
+<link rel="EditURI" type="application/rsd+xml" href="https://vi.wikibooks.org/w/api.php?action=rsd">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+<link rel="alternate" type="application/atom+xml" title="Nguồn cấp Atom của Wikibooks" href="https://vi.wikibooks.org/w/index.php?title=%C4%90%E1%BA%B7c_bi%E1%BB%87t:Thay_%C4%91%E1%BB%95i_g%E1%BA%A7n_%C4%91%C3%A2y&amp;feed=atom">
+<link rel="canonical" href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn">
+<link rel="dns-prefetch" href="https://login.wikimedia.org/">
+<link rel="dns-prefetch" href="https://meta.wikimedia.org/">
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=vi&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+<style>.client-js .mw-dismissable-notice { display: block; }</style><script src="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/index.php"></script><script src="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/index(1).php"></script><script src="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/index(2).php"></script></head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Bảng_tra_cứu_thuật_ngữ_ngôn_ngữ_lập_trình_C_Khai_báo_biến rootpage-Bảng_tra_cứu_thuật_ngữ_ngôn_ngữ_lập_trình_C skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><div id="centralNotice"></div><!-- CentralNotice --><div class="mw-dismissable-notice"><div class="mw-dismissable-notice-close" style="visibility: visible;">[<a tabindex="0" role="button">ẩn</a>]</div><div class="mw-dismissable-notice-body"><div id="localNotice" lang="vi" dir="ltr"><p><b><a href="https://vi.wikibooks.org/wiki/Wikibooks:Ch%C3%A0o_m%E1%BB%ABng" title="Wikibooks:Chào mừng">Xin hãy giúp xây dựng dự án này!</a></b>
+</p></div></div></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003Eẩn\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" lang=\"vi\" dir=\"ltr\"\u003E\u003Cp\u003E\u003Cb\u003E\u003Ca href=\"/wiki/Wikibooks:Ch%C3%A0o_m%E1%BB%ABng\" title=\"Wikibooks:Chào mừng\"\u003EXin hãy giúp xây dựng dự án này!\u003C/a\u003E\u003C/b\u003E\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="vi">Bảng tra cứu thuật ngữ ngôn ngữ lập trình C/Khai báo biến</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">Tủ sách mở Wikibooks</div>				<div id="contentSub"><span class="subpages">&lt; <a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C" title="Bảng tra cứu thuật ngữ ngôn ngữ lập trình C">Bảng tra cứu thuật ngữ ngôn ngữ lập trình C</a></span></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#mw-head">Buớc tưới chuyển hướng</a>
+				<a class="mw-jump-link" href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#p-search">Bước tới tìm kiếm</a>
+				<div id="mw-content-text" lang="vi" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table cellspacing="0" cellpadding="0" style="clear: right; margin-bottom: .5em; float: right; padding: .5em 0 .8em 1.4em; background: none; width: auto;">
+<tbody><tr>
+<td><div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none"><div class="toctitle" lang="vi" dir="ltr"><h2>Mục lục</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#Ki%E1%BB%83u_c%C6%A1_b%E1%BA%A3n"><span class="tocnumber">1</span> <span class="toctext">Kiểu cơ bản</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#D%E1%BA%A5u"><span class="tocnumber">1.1</span> <span class="toctext">Dấu</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#K%C3%ADch_c%E1%BB%A1"><span class="tocnumber">1.2</span> <span class="toctext">Kích cỡ</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#T%E1%BB%AB_kh%C3%B3a_%C4%91%E1%BB%8Bnh_t%C3%ADnh_const_cho_c%C3%A1c_ki%E1%BB%83u"><span class="tocnumber">1.3</span> <span class="toctext">Từ khóa định tính const cho các kiểu</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#Con_tr%E1%BB%8F"><span class="tocnumber">2</span> <span class="toctext">Con trỏ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#Con_tr%E1%BB%8F_ch%E1%BB%89_t%E1%BB%9Bi_con_tr%E1%BB%8F"><span class="tocnumber">2.1</span> <span class="toctext">Con trỏ chỉ tới con trỏ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#M%E1%BA%A3ng"><span class="tocnumber">3</span> <span class="toctext">Mảng</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#M%E1%BA%A3ng_c%E1%BB%A7a_c%C3%A1c_m%E1%BA%A3ng"><span class="tocnumber">3.1</span> <span class="toctext">Mảng của các mảng</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#M%E1%BA%A3ng_c%E1%BB%A7a_c%C3%A1c_con_tr%E1%BB%8F"><span class="tocnumber">3.2</span> <span class="toctext">Mảng của các con trỏ</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#Con_tr%E1%BB%8F_ch%E1%BB%89_t%E1%BB%9Bi_c%C3%A1c_m%E1%BA%A3ng"><span class="tocnumber">3.3</span> <span class="toctext">Con trỏ chỉ tới các mảng</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#C%E1%BA%A5u_tr%C3%BAc"><span class="tocnumber">4</span> <span class="toctext">Cấu trúc</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#%C4%90%E1%BB%8Bnh_ngh%C4%A9a_bi%E1%BA%BFn_ki%E1%BB%83u_struct"><span class="tocnumber">4.1</span> <span class="toctext">Định nghĩa biến kiểu struct</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#M%E1%BA%A3ng_c%E1%BB%A7a_c%C3%A1c_struct"><span class="tocnumber">4.2</span> <span class="toctext">Mảng của các struct</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#Con_tr%E1%BB%8F_ch%E1%BB%89_t%E1%BB%9Bi_struct"><span class="tocnumber">4.3</span> <span class="toctext">Con trỏ chỉ tới struct</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#C%E1%BA%A5u_tr%C3%BAc_l%E1%BB%93ng_nhau"><span class="tocnumber">4.4</span> <span class="toctext">Cấu trúc lồng nhau</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#Ki%E1%BB%83u_h%E1%BB%A3p_nh%E1%BA%A5t"><span class="tocnumber">5</span> <span class="toctext">Kiểu hợp nhất</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#D%C3%B9ng_#define_%C4%91%E1%BB%83_%C4%91%E1%BB%8Bnh_ngh%C4%A9a_h%E1%BA%B1ng_v%C3%A0_ki%E1%BB%83u"><span class="tocnumber">6</span> <span class="toctext">Dùng #define để định nghĩa hằng và kiểu</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#%C4%90%E1%BB%8Bnh_ngh%C4%A9a_t%C3%AAn_h%E1%BA%B1ng"><span class="tocnumber">6.1</span> <span class="toctext">Định nghĩa tên hằng</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#%C4%90%E1%BB%8Bnh_ngh%C4%A9a_t%C3%AAn_c%E1%BB%A7a_ki%E1%BB%83u_d%E1%BB%AF_li%E1%BB%87u"><span class="tocnumber">6.2</span> <span class="toctext">Định nghĩa tên của kiểu dữ liệu</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#D%C3%B9ng_typedef_%C4%91%E1%BB%83_%C4%91%E1%BB%8Bnh_ngh%C4%A9a_ki%E1%BB%83u"><span class="tocnumber">7</span> <span class="toctext">Dùng typedef để định nghĩa kiểu</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#D%C3%B9ng_cho_struct"><span class="tocnumber">7.1</span> <span class="toctext">Dùng cho struct</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#%E1%BB%A8ng_d%E1%BB%A5ng"><span class="tocnumber">7.2</span> <span class="toctext">Ứng dụng</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#Ki%E1%BB%83u_enum"><span class="tocnumber">8</span> <span class="toctext">Kiểu enum</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#L%C6%B0u_%C3%BD_v%E1%BB%81_bi%E1%BA%BFn_%C4%91%C6%B0%E1%BB%A3c_khai_b%C3%A1o_static"><span class="tocnumber">9</span> <span class="toctext">Lưu ý về biến được khai báo static</span></a></li>
+</ul>
+</div>
+
+</td></tr></tbody></table>
+<p><a href="https://vi.wikibooks.org/wiki/Ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C" class="mw-redirect" title="Ngôn ngữ lập trình C">Ngôn ngữ lập trình C</a> có một hệ thống mở rộng cho việc <b>khai báo các biến của các kiểu khác nhau</b>. Những qui tắc dành cho các kiểu phức tạp có thể gây nhầm lẫn tùy theo các kiểu thiết kế của chúng. Bài này nói về các khai báo biến, bắt đầu từ các kiểu đơn giản, và dẫn tới các kiểu phức tạp hơn.
+</p>
+<h2><span id="Ki.E1.BB.83u_c.C6.A1_b.E1.BA.A3n"></span><span class="mw-headline" id="Kiểu_cơ_bản">Kiểu cơ bản</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=1" title="Sửa đổi phần “Kiểu cơ bản”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Có 4 kiểu cơ bản của các biến trong C; đó là: <code>char</code>, <code>int</code>, <code>double</code> và <code>float</code>.
+</p>
+<table border="1" cellspacing="0" cellpadding="4">
+
+<tbody><tr>
+<th align="left">Tên kiểu
+</th>
+<th align="left">Ý nghĩa
+</th></tr>
+<tr>
+<td><code>char</code>
+</td>
+<td>Đơn vị cơ bản nhất có thể địa chỉ hóa được; nó là một byte. Đây là một kiểu nguyên.
+</td></tr>
+<tr>
+<td><code>int</code>
+</td>
+<td>Loại số nguyên theo kích cỡ tự nhiên nhất của các máy tính. Thông thường nó có thể lấy trọn một khoảng có thể địa chỉ hoá được của một <code><a href="https://vi.wikibooks.org/w/index.php?title=Word&amp;action=edit&amp;redlink=1" class="new" title="Word (trang chưa được viết)">word</a></code> với độ lớn biến thiên từ  16, 23, hay 64 bit tùy theo kiến trúc của <a href="https://vi.wikibooks.org/w/index.php?title=CPU&amp;action=edit&amp;redlink=1" class="new" title="CPU (trang chưa được viết)">CPU</a> và <a href="https://vi.wikibooks.org/w/index.php?title=H%E1%BB%87_%C4%91i%E1%BB%81u_h%C3%A0nh&amp;action=edit&amp;redlink=1" class="new" title="Hệ điều hành (trang chưa được viết)">hệ điều hành</a>.
+</td></tr>
+<tr>
+<td><code>float</code>
+</td>
+<td>Một giá trị dấu chấm động có độ chính xác đơn.
+</td></tr>
+<tr>
+<td><code>double</code>
+</td>
+<td>Một giá trị dấu chấm động có độ chính xác kép.
+</td></tr></tbody></table>
+<p>Để khai báo một biến có kiểu cơ bản, tên của kiểu được ghi ra trước sau đó đến tên của biến mới (hay của nhiều biến mới cách phân cách nhau bởi dấu phẩy) -- (Xem thêm định nghĩa <a href="https://vi.wikibooks.org/w/index.php?title=C%C3%BA_ph%C3%A1p_ng%C3%B4n_ng%E1%BB%AF_C&amp;action=edit&amp;redlink=1" class="new" title="Cú pháp ngôn ngữ C (trang chưa được viết)">dãy điểm</a>)
+</p>
+<pre>char red;
+int  blue, yellow;
+</pre>
+<p>Các <a href="https://vi.wikibooks.org/w/index.php?title=C%C3%BA_ph%C3%A1p_ng%C3%B4n_ng%E1%BB%AF_C&amp;action=edit&amp;redlink=1" class="new" title="Cú pháp ngôn ngữ C (trang chưa được viết)">định tính</a> khác nhau có thể đặt vào trong các kiểu cơ bản này để điều chỉnh kích cỡ và sẽ được miêu tả trong phần sau.
+</p><p><sup> Lưu ý: Ở đây chỉ nêu ra trường hợp khai báo đơn giản không đi kèm với việc gán giá trị khởi động cho biến </sup>
+</p>
+<h3><span id="D.E1.BA.A5u"></span><span class="mw-headline" id="Dấu">Dấu</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=2" title="Sửa đổi phần “Dấu”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Một kiểu được gọi là <b>có dấu</b> nếu kiểu nguyên đó có thể chứa các số âm. Ngược lại các kiểu cơ bản nào không chấp nhận các số âm là kiểu <b>không dấu</b>.
+</p><p>Có hai kiểu nguyên là <code>char</code> và <code>int</code> có thể có dấu âm hay không. Theo mặc định thì mọi kiểu <code>int</code> là có dấu (nghĩa là chúng chấp nhận các số âm). Để dùng dưới dạng không có dấu (tức là kiểu nguyên chỉ chấp nhận các sô không âm) thì từ khoá <code>unsigned</code> phải được dùng. Ngoài ra, thay vì khai báo đầy đủ trong dạng <code>unsigned int</code>, người ta có thể lược bỏ bớt từ khóa <code>int</code> (và nó được xem như hiểu ngầm -- điều này chỉ dùng đưọc cho kiểu <code>int</code> mà thôi). Như vậy hai khai báo sau đây hoàn toàn tương đương:
+</p>
+<pre> unsigned int green;
+ unsigned green;
+</pre>
+<p>Đặc tả của C không xác định rõ ràng là kiểu <code>char</code> sẽ là loại có dấu hay không dấu; khi đó, dấu của kiểu này tùy thuộc vào quy định của nhà phát hành trình dịch. Như vậy, một cách để giảm sai sót khi làm việc trên nhiều loại trình dịch C khác nhau là khai báo rõ ràng bằng các định tính <code>signed</code> hay <code>unsigned</code> nếu dùng kiểu <code>char</code> để tính toán trên các con số. (Dầu sao, nó thực sự sẽ không quá quan trọng nếu dùng kiểu <code>char</code> như là kiểu "ký tự".)
+</p>
+<pre>unsigned char grey;
+signed char white;
+</pre>
+<p>Tiêu chuẩn chung yêu cầu <code>char</code>, <code>signed char</code>, <code>unsigned char</code> là các kiểu khác nhau. Ngoài ra, các hàm chuẩn về dãy các kí tự sử dụng các con trỏ chỉ tới kiểu <code>char</code> (không có định tính), nhiều trình dịch C sẽ bắt lỗi (hay cảnh cáo) nếu các kiểu kí tự khác được dùng như là dãy kí tự được chuyển vào các hàm này.
+</p>
+<h3><span id="K.C3.ADch_c.E1.BB.A1"></span><span class="mw-headline" id="Kích_cỡ">Kích cỡ</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=3" title="Sửa đổi phần “Kích cỡ”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<dl><dd><i>Trong phần này hai cụm từ "chiếm" và "có độ dài" đều có nghĩa là "phần bộ nhớ cần thiết để dành cho một biến"; biến này có kiểu được miêu tả tùy theo chi tiết của bài viết</i>.</dd></dl>
+<p>Kiểu <code>int</code> cũng có các định tính về kích cỡ để đặc biệt hóa tầm rộng của giá trị mà kiểu này cho phép (tương ứng với đó là việc thay đổi phần bộ nhớ dùng để chứa các số có kiểu này).
+</p>
+<pre>short int yellow;
+long int orange;
+</pre>
+<p>Tương tự như đã đề cập trong phần trước, người ta có thể bỏ không viết từ khóa <code>int</code> trong các kiểu mà đầy đủ phải viết là <code>short int</code> or <code>long int</code>. Thí dụ hai khai báo sau đây là tương đương.
+</p>
+<pre>long int brown;
+long brown;
+</pre>
+<p>Có một số nhầm lẫn trong giới hiểu biết về C như là các kiểu nguyên có độ lớn bao nhiêu. Trong tiêu chuẩn thì không chỉ một cách rõ ràng việc này:
+</p>
+<ul><li>Kiểu <code>short int</code> không thể lớn hơn kiểu <code>int</code>.</li>
+<li>Kiểu <code>int</code> không thể lớn hơn <code>long int</code>.</li>
+<li>Kiểu <code>short int</code> phải dài ít nhất 16 bit.</li>
+<li>Kiểu <code>long int</code> phải dài ít nhất 32 bit.</li></ul>
+<p>Trong tiêu chuẩn đã không đòi hỏi gì về các kích cỡ nêu trên và những khác nhau cần thiết. (Nghĩa là hoàn toàn hợp lệ nếu cả ba kiểu đều dài 64 bit!) Để có được một miêu tả chính xác và đơn giản của các kiểu, một <a href="https://vi.wikibooks.org/w/index.php?title=M%C3%A1y_t%C3%ADnh&amp;action=edit&amp;redlink=1" class="new" title="Máy tính (trang chưa được viết)">máy tính</a> người ta áp dụng vào trong mỗi kiểu (cũng như là kích cỡ của một kiểu con trỏ; xem phần đưới đây) một loại lược đồ đã được tạo ra; (xem&nbsp;:<a rel="nofollow" class="external text" href="http://www.opengroup.org/public/tech/aspen/lp64_wp.htm">64-Bit Programming Models</a>). Hai lược đồ được biết nhiều nhất là
+</p>
+<dl><dd><ul><li><code>ILP32</code>, trong đó <code>int</code>, <code>long int</code> và các kiểu con trỏ chiếm 32 bit.</li>
+<li><code>LP64</code>, trong đó, <code>long int</code> và con trỏ mỗi loại chiếm 64 bit, còn <code>int</code> có độ dài 32 bit.</li></ul></dd></dl>
+<p>Hầu hết các trình dịch dùng các lược đồ trên dùng 16 bit cho kiểu <code>short int</code>.
+</p><p>Một biến <code>double</code> có thể là môt <code>long double</code>, mà trình dịch có thể sử dụng thay cho một kiểu <code>double</code> thuần túy. Tương tự tình huống trước, chuẩn C không hề nêu rõ các kích cỡ tương đối giữa các giá trị dấu chấm động, mà chỉ đòi hỏi <code>float</code> không được lớn hơn <code>long double</code> về kích cỡ.
+</p>
+<h3><span id="T.E1.BB.AB_kh.C3.B3a_.C4.91.E1.BB.8Bnh_t.C3.ADnh_const_cho_c.C3.A1c_ki.E1.BB.83u"></span><span class="mw-headline" id="Từ_khóa_định_tính_const_cho_các_kiểu">Từ khóa định tính <code>const</code> cho các kiểu</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=4" title="Sửa đổi phần “Từ khóa định tính const cho các kiểu”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Để giúp tăng cường độ an toàn trong các chương trình, các giá trị có thể được đánh dấu là các hằng bằng từ khóa định tính <code>const</code>. Với từ khóa này thì một biến khai báo trở thành một hằng. Mọi thao tác do vô ý hay cố ý để điều chỉnh giá trị của nó sẽ bị báo lỗi bởi hầu hết các trình dịch. Bởi vì sau khi đã dùng từ khóa định tính <code>const</code> thì các giá trị của biến không thể thay đổi nữa nên người lập trình phải gán giá trị ban đầu ngay lúc khai báo.
+</p><p>Chuẩn C cho phép hoán đổi vị trí của các hiệu chính. Thí dụ cả hai khai báo hằng sau đây là tương đương
+</p>
+<pre>int const black = 12;
+const int black = 12;
+</pre>
+<p>Cách khai báo đầu thường phản ánh cách dùng <code>const</code> trong cách dùng kiểu con trỏ trong khi cách thứ nhì lại tự nhiên hơn và phổ dụng hơn.
+</p>
+<h2><span id="Con_tr.E1.BB.8F"></span><span class="mw-headline" id="Con_trỏ">Con trỏ</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=5" title="Sửa đổi phần “Con trỏ”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Một biến có thể được khai báo như là một con trỏ chỉ đến các giá trị có kiểu nào đó, với ý nghĩa của dùng từ khóa định tính <i>*</i>. Để khai báo chỉ việc viết thêm ngay trước tên biến một dấu sao:
+</p>
+<pre>char *square;
+long *circle;
+</pre>
+<p>Lưu ý: Nếu dùng nhiều hơn một dấu sao thì sẽ tạo nên dạng các con trỏ đứng trước chỉ vào con trỏ đứng sau và con trỏ cuối cùng mới chỉ đến địa chỉ của giá trị biến.
+</p><p>Trong cuốn "<i>The C Programming Language</i>" (Ngôn ngữ lập trình C) có cho một giải thích tường tận về việc "hơi kì cục" khi dùng dấu sao trước tên của biến, trong khi dường như việc dùng dấu sao này đứng trước tên của kiểu thì có vẻ "hợp lý" hơn. Đó chính là việc <a href="https://vi.wikibooks.org/w/index.php?title=Tham_chi%E1%BA%BFu_ng%C6%B0%E1%BB%A3c&amp;action=edit&amp;redlink=1" class="new" title="Tham chiếu ngược (trang chưa được viết)">tham chiếu ngược</a> con trỏ, nó có kiểu của đối tượng mà nó chỉ tới. Trong thí dụ trên, <code>*circle</code> là một <i>giá trị</i> của kiểu <code>long</code>. Trong khi điều này khó thấy rõ trong thí dụ trên, thì nó lại cho thấy ưu điểm nếu dùng trong các kiểu phức hợp. Đây là lí do tại sao C "hơi kì cục" trong cách khai báo các kiểu phức hợp, lúc đó, tên của biến sẽ không còn rõ ràng trong khi khai báo kiểu như các thí dụ sẽ nêu trong phần tiếp sau đây.
+</p><p>Có một kiểu đặc biệt của giá trị mà không thể dùng được trực tiếp như là biến có kiểu, nhưng lại có thể chỉ đến nó nếu khai báo con trỏ.
+</p>
+<pre>void *triangle;
+</pre>
+<p>Giá trị được chỉ tới ở đây không thể dùng trực tiếp đuợc; mọi cố gắng để <a href="https://vi.wikibooks.org/w/index.php?title=Tham_chi%E1%BA%BFu_ng%C6%B0%E1%BB%A3c&amp;action=edit&amp;redlink=1" class="new" title="Tham chiếu ngược (trang chưa được viết)">tham chiếu ngược</a> con trỏ này sẽ dẫn tới một lỗi. Sự tiện lợi ở đây là vì nó là một con trỏ "tổng quát"; nó hữu dụng khi làm việc trên dữ liệu mà kiểu được chỉ tới là không giữ vai trò gì quan trọng. Đơn giản chỉ cần cái địa chỉ con trỏ. Nó thường được ứng dụng để chứa các con trỏ trong các kiểu để làm tiện ích như là <a href="https://vi.wikibooks.org/w/index.php?title=Danh_s%C3%A1ch_li%C3%AAn_k%E1%BA%BFt&amp;action=edit&amp;redlink=1" class="new" title="Danh sách liên kết (trang chưa được viết)">danh sách liên kết</a>, bảng băm (<i>hash</i>). Khi nào cần thì tiện ích sẽ <a href="https://vi.wikibooks.org/w/index.php?title=%C4%90%E1%BB%95i_ki%E1%BB%83u&amp;action=edit&amp;redlink=1" class="new" title="Đổi kiểu (trang chưa được viết)">đổi kiểu</a> (<i>typecast</i>) thành con trỏ có kiểu cần dùng.
+</p><p>Sau đây là thí dụ về các khai báo con trỏ hợp lệ:
+</p>
+<pre>long int *rectangle;
+unsigned short int *rhombus;
+const char *kite;
+</pre>
+<p>Lưu ý đặc biệt về việc dùng <code>const</code> trong trường hợp cuối cùng: ở đây <code>kite</code> là một con trỏ không phải là hằng chỉ tới một <code>const char</code> (tức là nó chỉ tới là một hằng có kiểu kí tự). Giá trị của <code>kite</code> tự nó không phải là hằng, chỉ có giá trị của <code>char</code> mà nó chỉ tới là một hằng.
+</p><p>Vị trí của từ khoá <code>const</code> đặt sau kiểu sẽ cho một cách thức để khai báo hằng con trỏ. Và như là một hằng, nó phải được gán giá trị khởi động khi khai báo:
+</p>
+<pre>char * const pentagon = &amp;some_char;
+</pre>
+<p>Ở đây, <code>pentagon</code> là một hằng con trỏ, mà nó chỉ tới một  <code>char</code>. Giá trị mà nó chỉ tới lại không là một hằng; và sẽ không gây lỗi khi thay đổi kí tự được nó chỉ tới. Chỉ khi nào thay đổi chính con trỏ này thì sẽ gây lỗi (vì đã khai báo nó là hằng). Cũng có thể khai báo cả hai: con trỏ và giá trị mà nó chỉ tới đều là hằng. Có hai cách tương đương nếu muốn khai báo như vậy là:
+</p>
+<pre>char const * const hexagon = &amp;some_char;
+const char * const hexagon = &amp;some_char;
+</pre>
+<h3><span id="Con_tr.E1.BB.8F_ch.E1.BB.89_t.E1.BB.9Bi_con_tr.E1.BB.8F"></span><span class="mw-headline" id="Con_trỏ_chỉ_tới_con_trỏ">Con trỏ chỉ tới con trỏ</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=6" title="Sửa đổi phần “Con trỏ chỉ tới con trỏ”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Vì lý do một khai báo chẳng hạn như <code>char *</code> tự nó là một kiểu, nên một biến con trỏ có thể được khai báo để nó chỉ vào các giá trị có kiểu như vây. Nói gọn hơn, chúng là con trỏ chỉ tới các con trỏ. Thí dụ:
+</p>
+<pre>char **septagon;
+</pre>
+<p>Như đã đề cập phần trên các từ khóa định tính <code>const</code> có thể áp dụng vào chẳng hạn:
+</p>
+<pre>unsigned long const int * const *octogon;
+</pre>
+<p>Dòng trên khai báo <code>octogon</code> là một con trỏ chỉ tới một hằng con trỏ, và hằng con trỏ này trở lại chỉ tới một số nguyên dạng <code>unsigned long</code>. Các kiểu con trỏ có thể lồng nhau, nhưng chúng càng trở nên khó khăn để nghĩ tới việc sử dụng khi mà càng nhiều cấp độ của sự gián tiếp tham gia vào. Mọi mã dùng nhiều hơn hai cấp độ của con trỏ có thể sẽ cần tới một sự thiết kế, dạng <code>struct</code> các con trỏ.
+</p><p>'<i>Chữ đậm'</i><b>Chữ đậm</b>
+</p>
+<hr>
+<h2><span id="M.E1.BA.A3ng"></span><span class="mw-headline" id="Mảng">Mảng</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=7" title="Sửa đổi phần “Mảng”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Đối với nhiều người lập trình, trong hầu hết các ngôn ngữ tương tự C, kiểu của một mảng nằm trong số phần tử mà nó chứa. Do vậy, khai báo sau đây có thể dùng trong các ngôn ngữ như <a href="https://vi.wikibooks.org/w/index.php?title=Java_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)&amp;action=edit&amp;redlink=1" class="new" title="Java (ngôn ngữ lập trình) (trang chưa được viết)">Java</a> hay <a href="https://vi.wikibooks.org/w/index.php?title=C_th%C4%83ng&amp;action=edit&amp;redlink=1" class="new" title="C thăng (trang chưa được viết)">C#</a> để khai báo một mảng 10 giá trị số nguyên.
+</p>
+<pre>int[10] cat; /* THIS IS NOT VALID C CODE */
+</pre>
+<p>Mặc dù vậy, như đã nhắc tới trước đây, nguyên lý trong cú pháp khai báo của C làm cho việc khai báo tương tự như việc sử dụng của biến. Thí dụ: một truy cập tới mảng này chẳng hạn như là <code>cat[i]</code>, lúc khai khai báo lại cũng có cú pháp dạng:
+</p>
+<pre>int cat[10];
+</pre>
+<h3><span id="M.E1.BA.A3ng_c.E1.BB.A7a_c.C3.A1c_m.E1.BA.A3ng"></span><span class="mw-headline" id="Mảng_của_các_mảng">Mảng của các mảng</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=8" title="Sửa đổi phần “Mảng của các mảng”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Tương tự như con trỏ, kiểu mảng có thể được lồng nhau. Vì trong cách viết mảng sử dụng các ngoặc vuông (<code>[]</code>), là một cách viết hậu tố, nên kích cỡ của mảng bên trong thì được ghi ở bên ngoài (hay đằng sau):
+</p>
+<pre>double dog[5][12];
+</pre>
+<p>Câu lệnh trên khai báo rằng <code>dog</code> là một mảng có năm phần tử. Mỗi phần tử là một mảng của 12 giá trị <code>double</code>.
+</p>
+<h3><span id="M.E1.BA.A3ng_c.E1.BB.A7a_c.C3.A1c_con_tr.E1.BB.8F"></span><span class="mw-headline" id="Mảng_của_các_con_trỏ">Mảng của các con trỏ</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=9" title="Sửa đổi phần “Mảng của các con trỏ”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Vì kiểu của phần trong một mảng tự nó lại là một kiểu của C, mảng của các con trỏ đương nhiên cũng có cấu trúc:
+</p>
+<pre>char *mice[10];
+</pre>
+<p>Câu lệnh này khai báo biến <code>mice</code> là mảng của 10 phần tử, trong đó, mỗi phần tử là một con trỏ chỉ tới <code>char</code>.
+</p>
+<h3><span id="Con_tr.E1.BB.8F_ch.E1.BB.89_t.E1.BB.9Bi_c.C3.A1c_m.E1.BA.A3ng"></span><span class="mw-headline" id="Con_trỏ_chỉ_tới_các_mảng">Con trỏ chỉ tới các mảng</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=10" title="Sửa đổi phần “Con trỏ chỉ tới các mảng”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Để khai báo một biến là một con trỏ chỉ tới một mảng, nhất thiết phải dùng tới dấu ngoặc đơn. Nó tương tự như cách dùng ngoặc để đổi thứ tự ưu tiên cho phép toán (phép toán trong ngoặc sẽ được tính trước) chẳng hạn:
+</p>
+<pre>2 + 3 * 4
+(2 + 3) * 4
+</pre>
+<p>Hoàn toàn tương tự cho con trỏ chỉ tới các mảng. Lưu ý rằng dấu ngoặc vuông (<code>[]</code>) có độ ưu tiên cao hơn dấu sao (<code>*</code>), do đó khai báo sẽ có dạng:
+</p>
+<pre>double (*elephant)[20];
+</pre>
+<p>Câu lệnh này khai báo biến <code>elephant</code> là một con trỏ, và nó chỉ tới một mảng có 20 giá trị kiểu <code>double</code>.
+</p><p>Để khai báo một con trỏ chỉ tới dãy các con trỏ, chỉ cần kết hợp các cách viết:
+</p>
+<pre>int *(*crocodile)[15];
+</pre>
+<p><br>
+</p>
+<h2><span id="C.E1.BA.A5u_tr.C3.BAc"></span><span class="mw-headline" id="Cấu_trúc">Cấu trúc</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=11" title="Sửa đổi phần “Cấu trúc”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Cấu trúc (từ khóa tương ứng <code>struct</code>) thực sự là một "kiểu mở rộng" của mảng. So với mảng thì cấu trúc mạnh hơn ở chỗ nó cho phép các phần tử của nó có các kiểu khác nhau và mỗi phần tử này được gọi là <b>thành phần</b> của một cấu trúc:
+</p>
+<pre> struct person 
+ {
+     char name[60];
+     int age;
+ }; //lưu ý dấu ";" cần dùng để kết thúc câu lệnh
+</pre>
+<p>Câu lệnh <code>struct</code> nêu trên là một khai báo chuẩn để tạo ra một kiểu cấu trúc trong C.
+</p>
+<h3><span id=".C4.90.E1.BB.8Bnh_ngh.C4.A9a_bi.E1.BA.BFn_ki.E1.BB.83u_struct"></span><span class="mw-headline" id="Định_nghĩa_biến_kiểu_struct">Định nghĩa biến kiểu <code>struct</code></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=12" title="Sửa đổi phần “Định nghĩa biến kiểu struct”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Việc định nghĩa một biến có kiểu <code>struct</code> cũng đơn giản như khi định nghĩa các biến bình thường:
+</p>
+<pre> struct person Bluesman;
+ 
+ struct person Bio =
+ {
+   "Hieu",
+   30
+ };
+</pre>
+<p>Trong cách đầu thì biến Bluesman chưa có giá trị khởi động (nó vẫn có thể được truy cập và thay đổi giá trị sau này) trong khi biến Bio đã được gán các giá trị ban đầu. Hãy lưu ý dùng dấu phẩy "<code>,</code>" để phân biệt các giá trị được gán lên những thành phần của cấu trúc -- và dĩ nhiên chúng phải có đúng kiểu cũng như không thể gán thiếu các giá trị cho các thành phần này.
+</p><p>Để truy cập đến các giá trị của biến có kiểu struct thì có thể dùng toán tử "." như câu lệnh sau:
+</p>
+<pre>  printf("Name&nbsp;: %s\n", Bio.name);
+</pre>
+<h3><span id="M.E1.BA.A3ng_c.E1.BB.A7a_c.C3.A1c_struct"></span><span class="mw-headline" id="Mảng_của_các_struct">Mảng của các <code>struct</code></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=13" title="Sửa đổi phần “Mảng của các struct”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Để kiến tạo một mảng của các <code>struct</code> thì dùng cú pháp sau:
+</p>
+<pre>  struct person list[10];
+</pre>
+<h3><span id="Con_tr.E1.BB.8F_ch.E1.BB.89_t.E1.BB.9Bi_struct"></span><span class="mw-headline" id="Con_trỏ_chỉ_tới_struct">Con trỏ chỉ tới <code>struct</code></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=14" title="Sửa đổi phần “Con trỏ chỉ tới struct”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Cũng vậy, việc tiến hành khai báo một biến con trỏ có kiểu là <code>struct</code> tương tự cách thông thường. Chỉ cần thêm vào đó dấu sao đằng trước tên biến:
+</p>
+<pre>  struct person *Huong;
+</pre>
+<h3><span id="C.E1.BA.A5u_tr.C3.BAc_l.E1.BB.93ng_nhau"></span><span class="mw-headline" id="Cấu_trúc_lồng_nhau">Cấu trúc lồng nhau</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=15" title="Sửa đổi phần “Cấu trúc lồng nhau”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Kiểu cấu trúc cũng có thể định nghĩa lồng vào nhau. Thí dụ dưới đây cho thấy việc khai báo cấu trúc <code>worker</code> có chứa cấu trúc <code>person</code> như là một thành phần. Việc truy cập dữ liệu thành phần của cấu trúc bên trong cũng được tiến hành theo cách dùng toán tử "." nối tiếp nhau.
+</p>
+<pre> struct person
+ {
+     char name[60];
+     int age;
+ };
+ struct worker
+ {
+    struct person peronal_ID;
+    char job[30];
+    float income;
+ };
+</pre>
+<h2><span id="Ki.E1.BB.83u_h.E1.BB.A3p_nh.E1.BA.A5t"></span><span class="mw-headline" id="Kiểu_hợp_nhất">Kiểu hợp nhất</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=16" title="Sửa đổi phần “Kiểu hợp nhất”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Kiểu hợp nhất có tên từ khóa là <code>union</code> kiểu đặc biệt này cho phép nó chứa dữ liệu mà có thể có kiểu khác nhau trong cùng một phần bộ nhớ (mà nó có thể được cấp phát khi khai báo biến):
+</p>
+<pre> union folder
+ {
+   int number;
+   double real;
+   char letter;
+ }; //lưu ý dấu ";" cần dùng để kết thúc câu lệnh
+</pre>
+<p>Để khai báo biến, có thể dùng cách thông thường, tạo mảng các <code>union</code> hay cách tham chiếu:
+</p>
+<pre> union folder matter;
+ union folder listtype[100];
+ union folder *matterptr;
+</pre>
+<p>Để gán hay truy cập giá trị cho một biến union, có thể dùng toán tử "." Theo hàng khai báo đầu tiên của thí dụ trên ta có thể viết một trong các phép gán:
+</p>
+<pre> matter.real=3.1416;
+</pre>
+<p>hay là:
+</p>
+<pre> matter.letter = 't';
+</pre>
+<p>hay là:
+</p>
+<pre> matter.number = 1;
+</pre>
+<p>Lưu ý:
+</p>
+<ul><li>Việc gán giá trị cho một biến kiểu <code>union</code> đòi hỏi kiểu của dữ liệu đó phải có mặt trong khai báo ban đầu của nó. Theo thí dụ trên thì kiểu <code>folder</code> chỉ chấp nhận chứa một đơn vị dữ liệu của một trong ba kiểu <code>int, double,</code> và <code>char</code>.</li>
+<li>Một khi giá trị có kiểu đúng nào đó được gán cho một biến kiểu <code>union</code> thì nó sẽ xóa bỏ hẳn giá trị cũ (nếu có) mà biến này đã chứa trước đó.</li>
+<li>Việc truy cập một giá trị từ một biến kiểu <code>union</code> cần lưu ý đến kiểu hiện tại của dữ liệu đang được chứa của biến này nếu không, có thể gây ra lỗi dùng sai kiểu.</li>
+<li>Điểm khác nhau quan trọng giữa <code>union</code> và <code>struct</code> là <code>union</code> chỉ có được một thành phần (nhưng thành phần này phải có kiểu tùy theo khai báo của người lập trình) trong khi <code>struct</code> bao gồm nhiều thành phần (và mỗi thành phần có thể có kiểu khác nhau)<i>.</i></li>
+<li>Tương tự như <code>strruct</code>, <code>union</code> cho phép khai báo nhiều union lồng nhau.</li></ul>
+<h2><span id="D.C3.B9ng_.23define_.C4.91.E1.BB.83_.C4.91.E1.BB.8Bnh_ngh.C4.A9a_h.E1.BA.B1ng_v.C3.A0_ki.E1.BB.83u"></span><span class="mw-headline" id="Dùng_#define_để_định_nghĩa_hằng_và_kiểu">Dùng <code>#define</code> để định nghĩa hằng và kiểu</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=17" title="Sửa đổi phần “Dùng #define để định nghĩa hằng và kiểu”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Một cách tổng quát thì từ khóa <a href="https://vi.wikibooks.org/w/index.php?title=Ti%E1%BB%81n_x%E1%BB%AD_l%C3%BD&amp;action=edit&amp;redlink=1" class="new" title="Tiền xử lý (trang chưa được viết)">tiền xử lý</a> <code>#define</code> đùng để định nghĩa tên của một kiểu (đối tượng) nào đó. Thực ra, câu lệnh <code>#define</code> chỉ là một loại câu lệnh <a href="https://vi.wikibooks.org/w/index.php?title=Ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh&amp;action=edit&amp;redlink=1" class="new" title="Ngôn ngữ lập trình (trang chưa được viết)">macro</a>. Có hai ứng dụng chính như sau:
+</p>
+<h3><span id=".C4.90.E1.BB.8Bnh_ngh.C4.A9a_t.C3.AAn_h.E1.BA.B1ng"></span><span class="mw-headline" id="Định_nghĩa_tên_hằng">Định nghĩa tên hằng</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=18" title="Sửa đổi phần “Định nghĩa tên hằng”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Có thể dùng câu lệnh tiền xử lý <code>#define</code> để định nghĩa một hằng:
+</p>
+<pre> #define PI 3.14159           //định nghĩa tên một hằng số PI
+ #define STANDARD "ANSI C"    //định nghĩa tên một hằng dãy kí tự 
+ #define ESC '\033'           //định nghĩa tên một hằng kí tự mã ASCII của phiếm Esc.
+</pre>
+<p>Lưu ý: so với cách định nghĩa dùng từ khóa <a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn#T%E1%BB%AB_kh%C3%B3a_%C4%91%E1%BB%8Bnh_t%C3%ADnh_const_cho_c%C3%A1c_ki%E1%BB%83u"><code>const<code></code></code></a><code><code> thì cách dùng này không được uyển chuyển bằng nhưng nó thường cho hiệu quả thực thi nhanh hơn vì đây chỉ là các macro.
+</code></code></p><code><code><h3><span id=".C4.90.E1.BB.8Bnh_ngh.C4.A9a_t.C3.AAn_c.E1.BB.A7a_ki.E1.BB.83u_d.E1.BB.AF_li.E1.BB.87u"></span><span class="mw-headline" id="Định_nghĩa_tên_của_kiểu_dữ_liệu">Định nghĩa tên của kiểu dữ liệu</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=19" title="Sửa đổi phần “Định nghĩa tên của kiểu dữ liệu”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3></code></code><code><code><p>Có thể dùng <code>#define</code> để định nghĩa tên của một kiểu dữ liệu:
+</p></code></code><code><code><pre> #define real float  //định nghĩa tên kiẻu real cho dữ liệu có kiểu float
+</pre></code></code><code><code><p>Việc khai báo các biến không có gì khác lạ ngoại trừ tên mới được dùng:
+</p></code></code><code><code><pre> real x, y[3], *z;
+</pre></code></code><code><code><p>Lưu ý: Việc sử dụng <code>#define</code> có thể có các hiệu ứng phụ không ngờ nếu dùng nó kết hợp với nhiều định tính và có thể dẫn đến những lỗi khó tìm khi viết mã:
+</p></code></code><code><code><pre> #define STRING char *
+</pre></code></code><code><code><p>Trong lúc định nghĩa biến người lập có thể muốn định nghĩa hai con trỏ <code>char</code> như sau:
+</p></code></code><code><code><pre> STRING name, job;
+</pre></code></code><code><code><p>Tuy nhiên, điều ước muốn sẽ không xãy ra vì <code>#define</code> là macro nên trình dịch sẽ diển giải thành (nó chỉ thay thế tên <code>STRING</code> bằng <code>char *</code>):
+</p></code></code><code><code><pre> char * name, job;
+</pre></code></code><code><code><p>Và như vậy, người lập trình sẽ không nhận được hai biến con trỏ như dự tính mà chỉ có một biến <code>name</code> là con trỏ mà thôi.
+</p></code></code><code><code><h2><span id="D.C3.B9ng_typedef_.C4.91.E1.BB.83_.C4.91.E1.BB.8Bnh_ngh.C4.A9a_ki.E1.BB.83u"></span><span class="mw-headline" id="Dùng_typedef_để_định_nghĩa_kiểu">Dùng <code>typedef</code> để định nghĩa kiểu</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=20" title="Sửa đổi phần “Dùng typedef để định nghĩa kiểu”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2></code></code><code><code><p>Một cách khác để đặt tên riêng cho kiểu dữ liệu là dùng câu lệnh với từ khóa <code>typedef</code>:
+</p></code></code><code><code><pre> typedef float real;
+</pre></code></code><code><code><p>Nếu so sánh cách viết trong thí dụ trên với việc dùng từ khoá <code>#define</code> để định nghĩa thì chúng hoàn toàn tương đương (chỉ khác nhau về thứ tự các chữ <code>float</code> và <code>real</code>). Tuy nhiên, cách viết này là một sự thay thế thế tên "đúng nghĩa" chứ không phải là một macro đơn thuần. Trở lại thí dụ:
+</p></code></code><code><code><pre>  typedef char* string;
+</pre></code></code><code><code><p>Câu lệnh trên cho phép đặt tên string như là một kiểu mới (mà nội dung của nó là kiểu con trỏ <code>char</code>). Bây giờ hãy xét đến câu lệnh khai báo biến:
+</p></code></code><code><code><pre>  string name, job;
+</pre></code></code><code><code><p>Trường hợp này sẽ được trình dịch diễn dịch đúng theo mong muốn thành:
+</p></code></code><code><code><pre>  char *name, *job;
+</pre></code></code><code><code><h3><span id="D.C3.B9ng_cho_struct"></span><span class="mw-headline" id="Dùng_cho_struct">Dùng cho <code>struct</code></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=21" title="Sửa đổi phần “Dùng cho struct”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3></code></code><code><code><p>Một thí dụ khác liên quan đến việc đặt tên cho <code>struct</code> là việc kết hợp cả hai khai báo và đặt tên lại trong cùng một câu lệnh:
+</p></code></code><code><code><pre>  typedef struct
+  {
+     char * name;
+     int * age;
+  }  person;
+</pre></code></code><code><code><p>Như vậy khi khai báo biến chỉ cần viết là:
+</p></code></code><code><code><pre> person Trung;
+</pre></code></code><code><code><h3><span id=".E1.BB.A8ng_d.E1.BB.A5ng"></span><span class="mw-headline" id="Ứng_dụng">Ứng dụng</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=22" title="Sửa đổi phần “Ứng dụng”">sửa</a><span class="mw-editsection-bracket">]</span></span></h3></code></code><code><code><p>Một ứng dụng đáng lưu ý của <code>typedef</code> là việc làm cho mã C trở nên linh hoạt hơn trong nhiều môi trường khác nhau. Thí dụ: khi muốn xác định dùng đúng 4 byte cho một kiểu nguyên nhưng trên một số hệ máy thì nó ứng với kiểu <code>int</code>, trong khi trên một số hệ máy khác nó lại ứng với kiểu <code>long int</code>. Để giải quyết việc dùng chính xác 4 byte cho kiểu nguyên mà người lập trình muốn, thì có thể dùng giải pháp là: thêm vào một <a href="https://vi.wikibooks.org/w/index.php?title=C_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)&amp;action=edit&amp;redlink=1" class="new" title="C (ngôn ngữ lập trình) (trang chưa được viết)">tập tin bao gồm</a> trong đó có chứa định nghĩa:
+</p></code></code><code><code><pre>  typedef int FOURBYTE;  //dùng cho các máy lấy <code>int</code> là 4 byte
+</pre></code></code><code><code><p>hay định nghĩa:
+</p></code></code><code><code><pre>  typedef long int FOURBYTE;  //dùng cho các máy lấy <code>long int</code> là 4 byte
+</pre></code></code><code><code><p>và chỉ cần thêm vào trong mã nguồn câu lệnh <code>#include &lt;Tên_tập_tin_bao_gồm&gt;</code> như vậy chỉ cần thay nội dung của tập tin bao gồm thì toàn bộ mã vẫn hoạt động đúng.
+</p></code></code><code><code><h2><span id="Ki.E1.BB.83u_enum"></span><span class="mw-headline" id="Kiểu_enum">Kiểu <code>enum</code></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=23" title="Sửa đổi phần “Kiểu enum”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2></code></code><code><code><p>Kiểu <code>enum</code> là một kiểu dữ liệu đặc biệt được dùng để định nghĩa một quan hệ thứ tự cho một tập họp hữu hạn các tên. (Trong thực tế thì <code>enum<code> có kiểu là <code>int</code> -- Theo trang 553 trong cuốn "New C Primer Plus" -- xem thêm phần tham khảo):
+</code></code></p></code></code><code><code><code><code><pre> enum Wiki {Arisa, Bluesman, VietBio, Trung, Quang, Minh};
+</pre></code></code></code></code><code><code><code><code><p>Để khai báo biến <code>member</code> có kiểu <code>enum</code> dùng câu lệnh:
+</p></code></code></code></code><code><code><code><code><pre> enum Wiki member;
+</pre></code></code></code></code><code><code><code><code><p>Các giá trị (hiểu ngầm) của các kí hiệu <code>Arisa, Bluesman, VietBio, Trung, Quang, Minh</code> theo mặc định sẽ tương ứng với 0, 1, 2, 3, 4, 5. Các câu lệnh cách viết sau đây là có hiệu lực:
+</p></code></code></code></code><code><code><code><code><pre>  member = Minh;
+  if (member == VietBio) { do_some_commands }
+  for (member=Arisa; member &lt;= Trung; member++) { do_some_commands }
+</pre></code></code></code></code><code><code><code><code><p>Như vậy, theo mặc định, các tên của một <code>enum&lt;/cdoe&gt; được xem là các  {duck, cahằng số từ 0 tăng dần cho đến tên cuối cùng.
+</code></p><p><code>Tuy nhiên, C không loại trừ khả năng xếp lại giá trị của một kiểu <code>enum</code> theo cách riêng:
+</code></p></code></code></code></code><code><code><code><code><code><pre>  enum reordert=10, mouse =50, elephant =1000, lion, virus};
+</pre></code></code></code></code></code><code><code><code><code><code><p>Trong thí dụ trên thì <code>duck</code> có giá trị tương ứng là 0, <code>cat</code> là 10, ..., <code>elephant</code> là 1000, còn <code>lion</code> tương ứng với giá trị 1001 và <code>virus</code> tương ứng với 1002.
+</p><p>Một trong những ứng dụng chính của kiểu này là để tăng cường khả năng đọc mã được dể hiểu hay phù hợp hơn.
+</p><p><br>
+</p></code></code></code></code></code><code><code><code><code><code><h2><span id="L.C6.B0u_.C3.BD_v.E1.BB.81_bi.E1.BA.BFn_.C4.91.C6.B0.E1.BB.A3c_khai_b.C3.A1o_static"></span><span class="mw-headline" id="Lưu_ý_về_biến_được_khai_báo_static">Lưu ý về biến được khai báo <code>static</code></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;section=24" title="Sửa đổi phần “Lưu ý về biến được khai báo static”">sửa</a><span class="mw-editsection-bracket">]</span></span></h2></code></code></code></code></code><code><code><code><code><code><p>Các biến có được xác định bởi định tính <code>static</code> đặt trước tên kiểu biến khi khai báo sẽ cho biến đó một tính năng đặc biệt, đó là, giá trị của nó sẽ được lưu giữ không bị mất đi mặc dù khối mã chứa nó đã được xử lí xong. Trường hợp. đặc biệt nếu một biến được khai báo có định tính <code>static</code> trong một hàm và được cài đặt giá trị nào đó thì sau khi hàm đó được gọi, giá trị của biến <code>static</code> đó vẩn còn giữ nguyên giữa mỗi lần gọi (cho tới khi nó được gán giá trị khác trong lần gọi tới của hàm). Thi dụ sau đây khai báo biến my_static có định tính <code>static</code> trong một hàm:
+</p></code></code></code></code></code><code><code><code><code><code><pre> #include&lt;stdio.h&gt;
+ int static_func(int init)
+ {
+    static int my_static_var;
+    my_static_var += init;
+    return my_static_var;
+ }
+ int main(void)
+ {
+   printf("call the 1st time (init=0), my_static_var = %d\n", static_func(0));
+   printf("call the 2nd time (init=1), my_static_var = %d\n", static_func(1));
+   printf("call the 3rd time (init=2), my_static_var = %d\n", static_func(2));
+ }
+</pre></code></code></code></code></code><code><code><code><code><code><p>Sau khi dịch và chạy mã này sẽ cho kết quả:
+</p></code></code></code></code></code><code><code><code><code><code><pre>   call the 1st time (init=0), my_static_var = 0   //0 +0 =0
+   call the 2nd time (init=1), my_static_var = 1   //0 +1 =1
+   call the 3rd time (init=2), my_static_var = 3   //1 +2 =3
+</pre></code></code></code></code></code><code><code><code><code><code><p>Lưu ý: Mọi biến toàn cục đều có định tính <code>static</code> một cách tự động.
+</p></code></code></code></code></code>
+<!-- 
+NewPP limit report
+Parsed by mw1320
+Cached time: 20190301075340
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.064 seconds
+Real time usage: 0.071 seconds
+Preprocessor visited node count: 131/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 719/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 6/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 657/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   11.924      1 -total
+ 78.32%    9.339      1 Bản_mẫu:BookCat
+ 49.05%    5.849      1 Bản_mẫu:FULLBOOKNAME
+ 18.38%    2.192      1 Bản_mẫu:Mục_lục_bên_phải
+-->
+
+<!-- Saved in parser cache with key viwikibooks:pcache:idhash:3164-0!canonical and timestamp 20190301075340 and revision id 196197
+ -->
+</div><noscript><img src="//vi.wikibooks.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Lấy từ “<a dir="ltr" href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;oldid=196197">https://vi.wikibooks.org/w/index.php?title=Bảng_tra_cứu_thuật_ngữ_ngôn_ngữ_lập_trình_C/Khai_báo_biến&amp;oldid=196197</a>”					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Th%E1%BB%83_lo%E1%BA%A1i" title="Đặc biệt:Thể loại">Thể loại</a>: <ul><li><a href="https://vi.wikibooks.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C" title="Thể loại:Bảng tra cứu thuật ngữ ngôn ngữ lập trình C">Bảng tra cứu thuật ngữ ngôn ngữ lập trình C</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Trình đơn chuyển hướng</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Công cụ cá nhân</h3>
+						<ul>
+							<li id="pt-anonuserpage">Chưa đăng nhập</li><li id="pt-anontalk"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Th%E1%BA%A3o_lu%E1%BA%ADn_t%C3%B4i" title="Thảo luận với địa chỉ IP này [alt-shift-n]" accesskey="n">Thảo luận cho địa chỉ IP này</a></li><li id="pt-anoncontribs"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:%C4%90%C3%B3ng_g%C3%B3p_c%E1%BB%A7a_t%C3%B4i" title="Danh sách các sửa đổi được thực hiện qua địa chỉ  IP này [alt-shift-y]" accesskey="y">Đóng góp</a></li><li id="pt-createaccount"><a href="https://vi.wikibooks.org/w/index.php?title=%C4%90%E1%BA%B7c_bi%E1%BB%87t:M%E1%BB%9F_t%C3%A0i_kho%E1%BA%A3n&amp;returnto=B%E1%BA%A3ng+tra+c%E1%BB%A9u+thu%E1%BA%ADt+ng%E1%BB%AF+ng%C3%B4n+ng%E1%BB%AF+l%E1%BA%ADp+tr%C3%ACnh+C%2FKhai+b%C3%A1o+bi%E1%BA%BFn" title="Khuyến khích bạn mở tài khoản và đăng nhập; tuy nhiên, không bắt buộc phải có tài khoản">Mở tài khoản</a></li><li id="pt-login"><a href="https://vi.wikibooks.org/w/index.php?title=%C4%90%E1%BA%B7c_bi%E1%BB%87t:%C4%90%C4%83ng_nh%E1%BA%ADp&amp;returnto=B%E1%BA%A3ng+tra+c%E1%BB%A9u+thu%E1%BA%ADt+ng%E1%BB%AF+ng%C3%B4n+ng%E1%BB%AF+l%E1%BA%ADp+tr%C3%ACnh+C%2FKhai+b%C3%A1o+bi%E1%BA%BFn" title="Đăng nhập sẽ có lợi hơn, tuy nhiên không bắt buộc. [alt-shift-o]" accesskey="o">Đăng nhập</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Không gian tên</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn" title="Xem trang sách [alt-shift-c]" accesskey="c">Sách</a></span></li><li id="ca-talk" class="new"><span><a href="https://vi.wikibooks.org/w/index.php?title=Th%E1%BA%A3o_lu%E1%BA%ADn:B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit&amp;redlink=1" rel="discussion" title="Thảo luận về trang này (trang chưa được viết) [alt-shift-t]" accesskey="t">Thảo luận</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label">
+						<h3 id="p-variants-label">
+							<span>Biến thể</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Giao diện</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="https://vi.wikibooks.org/wiki/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn">Đọc</a></span></li><li id="ca-edit" class="collapsible"><span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=edit" title="Sửa đổi trang này [alt-shift-e]" accesskey="e">Sửa đổi</a></span></li><li id="ca-history" class="collapsible"><span><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=history" title="Các phiên bản cũ của trang này [alt-shift-h]" accesskey="h">Xem lịch sử</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label" style="">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Khác</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Tìm kiếm</label>
+						</h3>
+						<form action="https://vi.wikibooks.org/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Tìm kiếm Wikibooks" title="Tìm kiếm trong wiki này [alt-shift-f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off"><input type="hidden" value="Đặc_biệt:Tìm_kiếm" name="title"><input type="submit" name="go" value="Xem" title="Xem trang khớp với tên này nếu có" id="searchButton" class="searchButton">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="https://vi.wikibooks.org/wiki/Trang_Ch%C3%ADnh" title="Trang Chính"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Chuyển hướng</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage"><a href="https://vi.wikibooks.org/wiki/Trang_Ch%C3%ADnh" title="Trang đầu của tủ sách mở [alt-shift-z]" accesskey="z">Trang Chính</a></li><li id="n-help"><a href="https://vi.wikibooks.org/wiki/Tr%E1%BB%A3_gi%C3%BAp:B%E1%BA%AFt_%C4%91%E1%BA%A7u_v%E1%BB%9Bi_Wikibooks" title="Nơi tìm hiểu thêm cách dùng.">Trợ giúp</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-content" aria-labelledby="p-content-label">
+			<h3 id="p-content-label">Nội dung</h3>
+			<div class="body">
+								<ul>
+					<li id="n-wikibooks-book"><a href="https://vi.wikibooks.org/wiki/Ch%E1%BB%A7_%C4%91%E1%BB%81:S%C3%A1ch_theo_ch%E1%BB%A7_%C4%91%E1%BB%81">Sách Wikibooks</a><span style="margin-left: 0.5em; white-space: nowrap;">(<a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Randomrootpage/:" title="Xem sách ngẫu nhiên">?</a> <a href="https://vi.wikibooks.org/wiki/Wikibooks:C%C3%A1c_s%C3%A1ch_ch%E1%BB%8Dn_l%E1%BB%8Dc" title="Wikibooks:Các sách chọn lọc">★</a>)</span></li><li id="n-wikibooks-junior"><a href="https://vi.wikibooks.org/wiki/Ch%E1%BB%A7_%C4%91%E1%BB%81:Tr%E1%BA%BB_em">Sách trẻ em</a><span style="margin-left: 0.5em; white-space: nowrap;">(<a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Randomrootpage/Tr%E1%BA%BB_em" title="Xem sách trẻ em ngẫu nhiên">?</a> <a href="https://vi.wikibooks.org/wiki/Wikibooks:C%C3%A1c_s%C3%A1ch_tr%E1%BA%BB_em_ch%E1%BB%8Dn_l%E1%BB%8Dc" title="Wikibooks:Các sách trẻ em chọn lọc">★</a>)</span></li><li id="n-wikibooks-cookbook"><a href="https://vi.wikibooks.org/wiki/Ch%E1%BB%A7_%C4%91%E1%BB%81:%E1%BA%A8m_th%E1%BB%B1c">Sách nấu ăn</a><span style="margin-left: 0.5em; white-space: nowrap;">(<a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Randomrootpage/N%E1%BA%A5u_%C4%83n" title="Xem món ăn ngẫu nhiên">?</a> <a href="https://vi.wikibooks.org/wiki/Wikibooks:C%C3%A1c_m%C3%B3n_%C4%83n_ch%E1%BB%8Dn_l%E1%BB%8Dc" title="Wikibooks:Các món ăn chọn lọc">★</a>)</span></li><li id="n-randomrootpage" style="display: none;"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Trang_g%E1%BB%91c_ng%E1%BA%ABu_nhi%C3%AAn">Chọn ngẫu nhiên</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-community" aria-labelledby="p-community-label">
+			<h3 id="p-community-label">Cộng đồng</h3>
+			<div class="body">
+								<ul>
+					<li id="n-community-talk"><a href="https://vi.wikibooks.org/wiki/Wikibooks:B%C3%A0n_th%E1%BA%A3o_lu%E1%BA%ADn">Thảo luận</a></li><li id="n-recentchanges"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Thay_%C4%91%E1%BB%95i_g%E1%BA%A7n_%C4%91%C3%A2y" title="Danh sách các thay đổi gần đây [alt-shift-r]" accesskey="r">Thay đổi gần đây</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_vi.wikibooks.org&amp;uselang=vi" title="Quyên góp xây dưng tủ sách mở">Quyên góp</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">In/xuất ra</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="https://vi.wikibooks.org/w/index.php?title=%C4%90%E1%BA%B7c_bi%E1%BB%87t:S%C3%A1ch&amp;bookcmd=book_creator&amp;referer=B%E1%BA%A3ng+tra+c%E1%BB%A9u+thu%E1%BA%ADt+ng%E1%BB%AF+ng%C3%B4n+ng%E1%BB%AF+l%E1%BA%ADp+tr%C3%ACnh+C%2FKhai+b%C3%A1o+bi%E1%BA%BFn">Tạo một quyển sách</a></li><li id="coll-download-as-rdf2latex"><a href="https://vi.wikibooks.org/w/index.php?title=%C4%90%E1%BA%B7c_bi%E1%BB%87t:ElectronPdf&amp;page=B%E1%BA%A3ng+tra+c%E1%BB%A9u+thu%E1%BA%ADt+ng%E1%BB%AF+ng%C3%B4n+ng%E1%BB%AF+l%E1%BA%ADp+tr%C3%ACnh+C%2FKhai+b%C3%A1o+bi%E1%BA%BFn&amp;action=show-download-screen">Tải về dưới dạng PDF</a></li><li id="t-print"><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;printable=yes" title="Bản để in ra của trang [alt-shift-p]" accesskey="p">Bản để in</a></li>				</ul>
+							</div>
+		</div>
+			<div id="p-avim" class="portal collapsed" role="navigation"><h3>Gõ tiếng Việt</h3><div class="pBody body"><a href="https://vi.wikibooks.org/wiki/Wikibooks:G%C3%B5%20ti%E1%BA%BFng%20Vi%E1%BB%87t" title="Wikibooks:Gõ tiếng Việt">Trợ giúp</a><ul><li><input id="avim_auto" name="viet_method" type="radio">&nbsp;<label class="radio" for="avim_auto">Tự động</label>&nbsp;<small>[F9]</small></li><li><input id="avim_telex" name="viet_method" type="radio">&nbsp;<label class="radio" for="avim_telex">Telex</label>&nbsp;<a href="https://vi.wikipedia.org/wiki/Telex#Quy_.C6.B0.E1.BB.9Bc_telex" title="Telex#Quy ước telex">(?)</a></li><li><input id="avim_vni" name="viet_method" type="radio">&nbsp;<label class="radio" for="avim_vni">VNI</label>&nbsp;<a href="https://vi.wikipedia.org/wiki/VNI#Quy_.C6.B0.E1.BB.9Bc" title="VNI#Quy ước">(?)</a></li><li><input id="avim_viqr" name="viet_method" type="radio">&nbsp;<label class="radio" for="avim_viqr">VIQR</label>&nbsp;<a href="https://vi.wikipedia.org/wiki/VIQR" title="VIQR">(?)</a></li><li><input id="avim_viqr2" name="viet_method" type="radio">&nbsp;<label class="radio" for="avim_viqr2">VIQR*</label></li><li><input id="avim_off" name="viet_method" type="radio">&nbsp;<label class="radio" for="avim_off">Tắt</label>&nbsp;<small>[F12]</small></li><li><hr></li><li><input id="avim_daucu" name="viet_method" type="checkbox">&nbsp;<label class="radio" for="avim_daucu">Bỏ dấu kiểu cũ</label>&nbsp;<small>[F7]</small></li><li><input id="avim_ckspell" name="viet_method" type="checkbox">&nbsp;<label class="radio" for="avim_ckspell">Đúng chính tả</label>&nbsp;<small>[F8]</small></li></ul></div></div><div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Công cụ</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Li%C3%AAn_k%E1%BA%BFt_%C4%91%E1%BA%BFn_%C4%91%C3%A2y/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn" title="Các trang liên kết đến đây [alt-shift-j]" accesskey="j">Các liên kết đến đây</a></li><li id="t-recentchangeslinked"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Thay_%C4%91%E1%BB%95i_li%C3%AAn_quan/B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn" rel="nofollow" title="Thay đổi gần đây của các trang liên kết đến đây [alt-shift-k]" accesskey="k">Thay đổi liên quan</a></li><li id="t-upload"><a href="https://vi.wikibooks.org/wiki/Commons:Special:UploadWizard" title="Tải tập tin lên [alt-shift-u]" accesskey="u">Tải tập tin lên</a></li><li id="t-specialpages"><a href="https://vi.wikibooks.org/wiki/%C4%90%E1%BA%B7c_bi%E1%BB%87t:Trang_%C4%91%E1%BA%B7c_bi%E1%BB%87t" title="Danh sách các trang đặc biệt [alt-shift-q]" accesskey="q">Các trang đặc biệt</a></li><li id="t-permalink"><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;oldid=196197" title="Liên kết thường trực đến phiên bản này của trang">Liên kết thường trực</a></li><li id="t-info"><a href="https://vi.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;action=info" title="Thêm chi tiết về trang này">Thông tin trang</a></li><li id="t-cite"><a href="https://vi.wikibooks.org/w/index.php?title=%C4%90%E1%BA%B7c_bi%E1%BB%87t:Tr%C3%ADch_d%E1%BA%ABn&amp;page=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C%2FKhai_b%C3%A1o_bi%E1%BA%BFn&amp;id=196197" title="Hướng dẫn cách trích dẫn trang này">Chú thích trang sách này</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label"><button class="uls-settings-trigger" title="Tùy chọn ngôn ngữ"></button>
+			<h3 id="p-lang-label">Ngôn ngữ</h3>
+			<div class="body">
+								<ul>
+									</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:NewItem?site=viwikibooks&amp;page=B%E1%BA%A3ng+tra+c%E1%BB%A9u+thu%E1%BA%ADt+ng%E1%BB%AF+ng%C3%B4n+ng%E1%BB%AF+l%E1%BA%ADp+tr%C3%ACnh+C%2FKhai+b%C3%A1o+bi%E1%BA%BFn" title="Thêm liên kết giữa ngôn ngữ" class="wbc-editpage">Thêm liên kết</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> Trang này được sửa đổi lần cuối vào ngày 2 tháng 12 năm 2018 lúc 06:03.</li>
+								<li id="footer-info-copyright">Văn bản được phát hành theo <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.vi">Giấy phép Creative Commons Ghi công–Chia sẻ tương tự</a>; có thể áp dụng điều khoản bổ sung. Xem <a href="https://foundation.wikimedia.org/wiki/%C4%90i%E1%BB%81u_kho%E1%BA%A3n_S%E1%BB%AD_d%E1%BB%A5ng?uselang=vi">Điều khoản Sử dụng</a> để biết thêm chi tiết.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Chính sách về sự riêng tư</a></li>
+								<li id="footer-places-about"><a href="https://vi.wikibooks.org/wiki/Wikibooks:Gi%E1%BB%9Bi_thi%E1%BB%87u" class="mw-redirect" title="Wikibooks:Giới thiệu">Giới thiệu Wikibooks</a></li>
+								<li id="footer-places-disclaimer"><a href="https://vi.wikibooks.org/wiki/Wikibooks:Ph%E1%BB%A7_nh%E1%BA%ADn_chung" title="Wikibooks:Phủ nhận chung">Lời phủ nhận</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Nhà phát triển</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Tuyên bố về cookie</a></li>
+								<li id="footer-places-mobileview"><a href="https://vi.m.wikibooks.org/w/index.php?title=B%E1%BA%A3ng_tra_c%E1%BB%A9u_thu%E1%BA%ADt_ng%E1%BB%AF_ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh_C/Khai_b%C3%A1o_bi%E1%BA%BFn&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Phiên bản di động</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="./Bảng tra cứu thuật ngữ ngôn ngữ lập trình C_Khai báo biến – Wikibooks tiếng Việt_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.064","walltime":"0.071","ppvisitednodes":{"value":131,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":719,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":6,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":657,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   11.924      1 -total"," 78.32%    9.339      1 Bản_mẫu:BookCat"," 49.05%    5.849      1 Bản_mẫu:FULLBOOKNAME"," 18.38%    2.192      1 Bản_mẫu:Mục_lục_bên_phải"]},"cachereport":{"origin":"mw1320","timestamp":"20190301075340","ttl":2592000,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":118,"wgHostname":"mw1319"});});</script>
+	
+
+<div class="suggestions" style="display: none; font-size: 13px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div><div id="AVIMControl"></div></body></html>
